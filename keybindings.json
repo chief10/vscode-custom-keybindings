@@ -8,5 +8,11 @@
     "key": "ctrl+`",
     "command": "workbench.action.terminal.focus",
     "when": "!terminalFocus"
+  },
+  
+    {
+    "key": "ctrl+shift+`",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus"
   }
 ]
